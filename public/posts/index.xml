@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Todas Publicações - Victor Reis</title>
+        <link>http://example.org/posts/</link>
+        <description>Todas Publicações | Victor Reis</description>
+        <generator>Hugo -- gohugo.io</generator><language>pt-br</language><lastBuildDate>Tue, 12 Dec 2023 23:53:30 -0300</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Primeiro post</title>
+    <link>http://example.org/posts/primeiro_post/</link>
+    <pubDate>Tue, 12 Dec 2023 23:53:30 -0300</pubDate><author>
+                    <name>Victor</name>
+                </author><guid>http://example.org/posts/primeiro_post/</guid>
+    <description><![CDATA[Título do meu artigo de teste! Tabela de conteúdos Chapter 1 Chapter 2 Chapter 3 Capitulo teste Esse é apenas um post teste.
+Esse blog será algo grandioso para o aprendizado de diversas coisas.
+Camaleão (figure) countHello := 10 for i := range countHello { fmt.Println(&#34;Hello world!&#34;) } countHello := 10 for i := range countHello { fmt.Println(&#34;Hello world!&#34;) } This is a right-aligned paragraph. Postando imagem
+Imagem com descriçãoO camaleão Título do meu artigo de teste!]]></description>
+</item></channel>
+</rss>
