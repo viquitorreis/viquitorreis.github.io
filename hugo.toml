@@ -170,30 +170,16 @@ theme = "DoIt"
     [params.social.Github]
       # weight when arranging icons (the greater the weight, the later the icon is positioned)
       weight = 0
-      # your social ID
-      id = "@xxxx"
-      # prefix of your social link
-      prefix = "https://mastodon.social/"
+      prefix = "https://github.com/viquitorreis"
       # content hovering on the icon
-      title = "Mastodon"
+      title = "GitHub"
     [params.social.Linkedin]
       # weight when arranging icons (the greater the weight, the later the icon is positioned)
       weight = 0
-      # your social ID
-      id = "@xxxx"
       # prefix of your social link
-      prefix = "https://mastodon.social/"
+      prefix = "https://www.linkedin.com/in/victor-reis-a74225242/"
       # content hovering on the icon
-      title = "Mastodon"
-    [params.social.Discord]
-      # weight when arranging icons (the greater the weight, the later the icon is positioned)
-      weight = 0
-      # your social ID
-      id = "@xxxx"
-      # prefix of your social link
-      prefix = "https://mastodon.social/"
-      # content hovering on the icon
-      title = "Mastodon"
+      title = "Linkedin"
 
 
 
