@@ -7,14 +7,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noodp" />
-    <title>Todas Categorias - Victor Reis</title><meta name="Description" content=""><meta property="og:title" content="Categories" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://example.org/categories/" /><meta property="og:image" content="http://example.org/images/bd62fba50eb6e4fd4454a36a9868b6bf5aa01ccef9a4bed625782ada73f31356.png" />
+    <title>Binary search - Victor Reis</title><meta name="Description" content=""><meta property="og:title" content="Binary search" />
+<meta property="og:description" content="Binary Search ( Pesquisa binária ) Tabela de conteúdos O que é o Binary Search Binary search x Linear search Chapter 3 O que é o Binary Search O Binary search é um algoritmo que faz uma busca eficiente para achar um item qualquer em uma lista ordenada. A forma que funciona é muito simples: ele vai dividir a lista ao meio ( na parte que pode conter o elemento buscado ), até reduzir a lista o suficiente para achar o elemento, caso exista." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/segundo_post/" /><meta property="og:image" content="http://example.org/images/bd62fba50eb6e4fd4454a36a9868b6bf5aa01ccef9a4bed625782ada73f31356.png" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-12-19T13:34:32-03:00" />
+<meta property="article:modified_time" content="2023-12-19T13:34:32-03:00" />
 
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="http://example.org/images/bd62fba50eb6e4fd4454a36a9868b6bf5aa01ccef9a4bed625782ada73f31356.png" /><meta name="twitter:title" content="Categories"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:image" content="http://example.org/images/bd62fba50eb6e4fd4454a36a9868b6bf5aa01ccef9a4bed625782ada73f31356.png" /><meta name="twitter:title" content="Binary search"/>
+<meta name="twitter:description" content="Binary Search ( Pesquisa binária ) Tabela de conteúdos O que é o Binary Search Binary search x Linear search Chapter 3 O que é o Binary Search O Binary search é um algoritmo que faz uma busca eficiente para achar um item qualquer em uma lista ordenada. A forma que funciona é muito simples: ele vai dividir a lista ao meio ( na parte que pode conter o elemento buscado ), até reduzir a lista o suficiente para achar o elemento, caso exista."/>
 <meta name="application-name" content="Victor Reis">
 <meta name="apple-mobile-web-app-title" content="Victor Reis">
 
@@ -24,11 +26,27 @@
     <link rel="manifest" href="/site.webmanifest">
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="canonical" href="http://example.org/categories/" /><link rel="alternate" href="/categories/index.xml" type="application/rss+xml" title="Victor Reis">
-    <link rel="feed" href="/categories/index.xml" type="application/rss+xml" title="Victor Reis">
+    <meta name="theme-color" content="#ffffff"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="canonical" href="http://example.org/posts/segundo_post/" />
 <link rel="stylesheet" href="/css/main.css"><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/color.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/fontawesome-free/all.min.css">
         <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/animate/animate.min.css">
-        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript></head>
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Binary search",
+        "inLanguage": "pt-br",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http://example.org/posts/segundo_post/"
+        },"genre": "posts","wordcount":  216 ,
+        "url": "http://example.org/posts/segundo_post/","datePublished": "2023-12-19T13:34:32-03:00","dateModified": "2023-12-19T13:34:32-03:00","publisher": {
+            "@type": "Organization",
+            "name": "Autor"},"authors": [{
+                        "@type": "Person",
+                        "name": "Victor"                    
+                    }],"description": ""
+    }
+    </script></head>
 
 <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">
         function setTheme(theme) {document.body.setAttribute('theme', theme); document.documentElement.style.setProperty('color-scheme', theme === 'light' ? 'light' : 'dark'); window.theme = theme;   window.isDark = window.theme !== 'light' }
@@ -53,7 +71,7 @@
         title="/images/bd62fba50eb6e4fd4454a36a9868b6bf5aa01ccef9a4bed625782ada73f31356(1).png" height="50"   width="50" ><span id="desktop-header-typeit" class="typeit"></span></a>
         </div>
         <div class="menu">
-            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item active" href="/categories/"> Categories </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
                         <input type="text" placeholder="Pesquisar títulos ou conteúdos ..." id="search-input-desktop">
                         <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Pesquisa">
                             <i class="fas fa-search fa-fw"></i>
@@ -126,16 +144,62 @@
     <div id="search-dropdown-mobile"></div>
 </div>
 <main class="main">
-            <div class="container"><div class="page archive"><h2 class="single-title animate__animated animate__pulse animate__faster">Todas Categorias</h2><div class="categories-card"><div class="card-item">
-                        <div class="card-item-wrapper">
-                            <h3 class="card-item-title">
-                                <a href="/categories/algoritmos/">
-                                    <i class="far fa-folder fa-fw"></i>&nbsp;Algoritmos <sup>1</sup>
-                                </a>
-                            </h3><article class="archive-item">
-                                    <a href="/posts/segundo_post/" class="archive-item-link">Binary search</a>
-                                </article></div>
-                    </div></div></div></div>
+            <div class="container"><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Binary search</h1><div class="post-meta">
+            <div class="post-meta-line">
+                <span class="post-author"><span class='author'><span class="author fas fa-user-circle fa-fw"></span><span class='screen-reader-text'>  </span><a href='http://example.org/authors/victor'>Victor</a></span>
+                </span>&nbsp;<span class="post-category">incluído </span>&nbsp;<span class="post-category">na categoria <a href="/categories/algoritmos/"><i class="far fa-folder fa-fw"></i>Algoritmos</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2023-12-19">2023-12-19</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime="2023-12-19">2023-12-19</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;216 palavras&nbsp;<i class="far fa-clock fa-fw"></i>&nbsp;2 minutos&nbsp;</div>
+        </div><div class="content" id="content"><h1 id="binary-search--pesquisa-binária-" class="headerLink">
+    <a href="#binary-search--pesquisa-bin%c3%a1ria-" class="header-mark"></a>Binary Search ( Pesquisa binária )</h1><h2 id="tabela-de-conteúdos" class="headerLink">
+    <a href="#tabela-de-conte%c3%bados" class="header-mark"></a>Tabela de conteúdos</h2><ul>
+<li><a href="#chapter-1" rel="">O que é o Binary Search</a></li>
+<li><a href="#chapter-2" rel="">Binary search x Linear search</a></li>
+<li><a href="#chapter-3" rel="">Chapter 3</a></li>
+</ul>
+<h2 id="o-que-é-o-binary-search" class="headerLink">
+    <a href="#o-que-%c3%a9-o-binary-search" class="header-mark"></a>O que é o Binary Search</h2><p><!-- raw HTML omitted --><!-- raw HTML omitted -->
+O Binary search é um algoritmo que faz uma <strong>busca eficiente</strong> para achar um item qualquer em uma <em><strong>lista ordenada</strong></em>. A forma que funciona é muito simples: ele vai dividir a lista ao meio ( na parte que pode conter o elemento buscado ), até reduzir a lista o suficiente para achar o elemento, caso exista.</p>
+<h2 id="binary-search-x-linear-search" class="headerLink">
+    <a href="#binary-search-x-linear-search" class="header-mark"></a>Binary search x Linear search</h2><p><!-- raw HTML omitted --><!-- raw HTML omitted -->
+Em 2023, é estimado que a população do planeta terra seja de 8 bilhões de pessoas. Imagine um cenário onde teriamos que fazer uma busca em todas essas pessoas do nosso planeta para encontrar um <em>Arquiteto de Cidades Invisíveis</em>. Vamos simular 2 cenários: busca linear e binary search, considerando que a ordem dos nomes na lista estão <strong>ordenados</strong>.</p>
+<p><strong>Busca linear:</strong></p>
+<p>Supondo que criaremos um algoritmo para fazer uma busca simples (linear search) nessa lista com todos os indivíduos:
+<figure><img
+        
+        loading="lazy"
+        src="/images/Busca.png"
+        srcset="/images/Busca.png, /images/Busca.png 1.5x, /images/Busca.png 2x"
+        sizes="auto"
+        alt="Linear Search"
+        title="Linear Search" ><figcaption class="image-caption">Linear Search</figcaption>
+    </figure></p>
+<p>No <strong>pior cenário</strong> teriamos que buscar todas as pessoas da lista e adotando como base que cada busca + checagem gastaria 1 milisegundo, a busca completa iria nos custar pouco mais de <strong>3 meses</strong>. Isso seria tempo demais, será que temos uma solução melhor para esse problema?</p>
+</div>
+
+        <div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Atualizado em 2023-12-19</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share"></div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Voltar</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"></div>
+</div>
+</article></div>
         </main><footer class="footer">
         <div class="footer-container"><div class="footer-line">
                     Movido a <a href="https://gohugo.io/" target="_blank" rel="noopener noreferrer" title="Hugo 0.121.1">Hugo</a>&nbsp;|&nbsp;Tema - <a href="https://github.com/HEIGE-PCloud/DoIt" target="_blank" rel="noopener noreferrer" title="DoIt 0.4.0"><i class="far fa-edit fa-fw"></i> DoIt</a>
@@ -150,7 +214,7 @@
         </a><a href="#" id="view-comments" class="fixed-button" title="Ver comentários">
             <i class="fas fa-comment fa-fw"></i>
         </a>
-    </div><div class="assets"><script type="text/javascript">window.config={"code":{"copyTitle":"Copiar para a área de transferência","maxShownLines":10},"data":{"desktop-header-typeit":" Victor Reis","mobile-header-typeit":" Victor Reis"},"search":{"distance":100,"findAllMatches":false,"highlightTag":"em","ignoreFieldNorm":false,"ignoreLocation":false,"isCaseSensitive":false,"location":0,"maxResultLength":10,"minMatchCharLength":2,"noResultsFound":"Nenhum resultado encontrado","snippetLength":30,"threshold":0.3,"useExtendedSearch":false},"typeit":{"cursorChar":null,"cursorSpeed":null,"data":{"desktop-header-typeit":["desktop-header-typeit"],"mobile-header-typeit":["mobile-header-typeit"]},"duration":null,"speed":null}};</script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/typeit/typeit.min.js"></script><script type="text/javascript" src="/js/theme.min.js" defer></script></div>
+    </div><div class="assets"><script type="text/javascript">window.config={"code":{"copyTitle":"Copiar para a área de transferência","maxShownLines":10},"comment":{},"data":{"desktop-header-typeit":" Victor Reis","mobile-header-typeit":" Victor Reis"},"search":{"distance":100,"findAllMatches":false,"highlightTag":"em","ignoreFieldNorm":false,"ignoreLocation":false,"isCaseSensitive":false,"location":0,"maxResultLength":10,"minMatchCharLength":2,"noResultsFound":"Nenhum resultado encontrado","snippetLength":30,"threshold":0.3,"useExtendedSearch":false},"typeit":{"cursorChar":null,"cursorSpeed":null,"data":{"desktop-header-typeit":["desktop-header-typeit"],"mobile-header-typeit":["mobile-header-typeit"]},"duration":null,"speed":null}};</script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/typeit/typeit.min.js"></script><script type="text/javascript" src="/js/theme.min.js" defer></script></div>
 </body>
 
 </html>
