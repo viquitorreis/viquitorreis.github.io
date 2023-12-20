@@ -10,10 +10,10 @@
     <atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Binary search</title>
-      <link>http://example.org/posts/segundo_post/</link>
+      <link>http://example.org/posts/binary_search/</link>
       <pubDate>Tue, 19 Dec 2023 13:34:32 -0300</pubDate>
-      <guid>http://example.org/posts/segundo_post/</guid>
-      <description>Binary Search ( Pesquisa binária ) Tabela de conteúdos O que é o Binary Search Chapter 2 Chapter 3 O que é o Binary Search O Binary search é um algoritmo que faz uma busca eficiente para achar um item qualquer em uma lista ordenada. A forma que funciona é muito simples: ele vai dividir a lista ao meio ( na parte que pode conter o elemento buscado ), até reduzir o suficiente para achar o elemento buscado, caso exista.</description>
+      <guid>http://example.org/posts/binary_search/</guid>
+      <description>Binary Search ( Pesquisa binária ) Tabela de conteúdos O que é o Binary Search Chapter 2 Chapter 3 O que é o Binary Search O Binary search é um algoritmo que faz uma busca eficiente para achar um item qualquer em uma lista ordenada. A forma que funciona é muito simples: ele vai dividir a lista ao meio ( na parte que pode conter o elemento buscado ), até reduzir a lista o suficiente para achar o elemento, caso exista.</description>
     </item>
   </channel>
 </rss>
