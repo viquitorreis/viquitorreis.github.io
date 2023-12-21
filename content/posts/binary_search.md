@@ -1,6 +1,6 @@
 ---
 title: "Binary search"
-date: 2023-12-19T13:34:32-03:00
+date: 2023-12-21T13:56:32-03:00
 draft: false
 authors: [Victor]
 categories: [Algoritmos]
