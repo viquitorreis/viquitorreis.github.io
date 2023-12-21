@@ -15,7 +15,7 @@ categories: [Algoritmos]
 
 ## O que é o Binary Search
 <a id="chapter-1"></a>
-O Binary search é um algoritmo que faz uma **busca eficiente** para achar um item qualquer em uma ***lista ordenada***. A forma que funciona é muito simples: ele vai dividir a lista ao meio ( na parte que pode conter o elemento buscado ), até reduzir a lista o suficiente para achar o elemento. 
+O Binary search é um algoritmo que faz uma **busca eficiente** para achar um item qualquer em uma ***lista ordenada***. A forma que funciona é muito simples: ele vai dividir a lista ao meio ( na parte que pode conter o elemento buscado ), até reduzir a lista o suficiente para achar o elemento ( ou não ). 
 
 ## Binary search x Linear search
 <a id="chapter-2"></a>
@@ -66,7 +66,7 @@ Para implementarmos o Binary search podemos simplesmente seguir esses passos:
 - [x] 'Chutar' com o valor do meio
 - [x] Se o chute for muito baixo, o menor elemento vai passar a ser maior que elemento do meio
 - [x] Se o chute for muito baixo, o maior elemento vai passar a ser menor que o elemento do meio
-- [x] O loop continua até acharmos o elemento desejado
+- [x] O loop continua até acharmos o elemento desejado ( ou não )
 
 * Implementação em golang:
 
