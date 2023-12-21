@@ -61,11 +61,14 @@ No nosso caso, log de 8 bilhões na base 2 ≃ 33
 Para implementarmos o Binary search podemos simplesmente seguir esses passos:
 
 - [x] Precisamos do valor do menor elemento e do maior elemento
+- [x] Fazemos um loop, enquanto o menor elemento for menor ou igual que o maior, continuamos a busca ( caso não acharmos o elemento desejado)
 - [x] Pegar o valor do meio
 - [x] 'Chutar' com o valor do meio
 - [x] Se o chute for muito baixo, o menor elemento vai passar a ser maior que elemento do meio
 - [x] Se o chute for muito baixo, o maior elemento vai passar a ser menor que o elemento do meio
 - [x] O loop continua até acharmos o elemento desejado
+
+* Implementação em golang:
 
 ```go
 package main
