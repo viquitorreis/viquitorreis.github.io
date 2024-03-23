@@ -16,12 +16,12 @@
  * beian {string} Chinese policy
  */
 export const site = {
-  title: 'Astro Theme Yi', // required
+  title: 'Victor Reis', // required
   favicon: '/favicon.svg', // required
   description: 'Welcome to my independent blog website! ',
-  author: "Astro-Yi", // required
-  avatar: '/avatar.png', // required
-  motto: 'Actions speak louder than words.',
+  author: "Victor Reis", // required
+  avatar: '/avatar_favicon/avatar.png', // required
+  motto: 'Mancebo aspirante de tecnologia. Nas horas vagas gosto de ler e usualmente arrisco uns jabs no boxe.',
   url: 'https://astro-yi-nu.vercel.app',
   recentBlogSize: 5,
   archivePageSize: 25,
@@ -58,36 +58,36 @@ export const categories = [
     href: "/feed/1",
   },
   {
-    name: "Archive",
+    name: "Arquivo",
     iconClass: "ri-archive-line",
     href: "/archive/1",
   },
   {
-    name: "Message",
+    name: "Mensagem",
     iconClass: "ri-chat-1-line",
     href: "/message",
   },
   {
-    name: "Search",
+    name: "Pesquisar",
     iconClass: "ri-search-line",
     href: "/search",
   },
   {
-    name: "More",
+    name: "Mais",
     iconClass: "ri-more-fill",
     href: "javascript:void(0);",
     children: [
       {
-        name: 'About',
+        name: 'Sobre',
         iconClass: 'ri-information-line',
         href: '/about',
       },
-      {
-        name: 'Friends',
-        iconClass: 'ri-user-5-line',
-        href: '/friends',
-        target: '_self',
-      },
+      // {
+      //   name: 'Friends',
+      //   iconClass: 'ri-user-5-line',
+      //   href: '/friends',
+      //   target: '_self',
+      // },
     ]
   }
 ]
@@ -96,31 +96,31 @@ export const categories = [
  * Personal link address
  */
 export const infoLinks = [
+  // {
+  //   icon: 'ri-telegram-fill',
+  //   name: 'telegram',
+  //   outlink: 'xxxxxxx',
+  // },
+  // {
+  //   icon: 'ri-twitter-fill',
+  //   name: 'twitter',
+  //   outlink: 'xxxxxxx',
+  // },
   {
-    icon: 'ri-telegram-fill',
-    name: 'telegram',
-    outlink: 'xxxxxxx',
-  },
-  {
-    icon: 'ri-twitter-fill',
-    name: 'twitter',
-    outlink: 'xxxxxxx',
-  },
-  {
-    icon: 'ri-instagram-fill',
-    name: 'instagram',
-    outlink: 'xxxxxxx',
+    icon: 'ri-linkedin-fill',
+    name: 'linkedin',
+    outlink: 'https://www.linkedin.com/in/viquitorreis',
   },
   {
     icon: 'ri-github-fill',
     name: 'github',
-    outlink: 'https://github.com/cirry',
+    outlink: 'https://github.com/viquitorreis',
   },
-  {
-    icon: 'ri-rss-fill',
-    name: 'rss',
-    outlink: 'https://astro-yi-nu.vercel.app/rss.xml',
-  }
+  // {
+  //   icon: 'ri-rss-fill',
+  //   name: 'rss',
+  //   outlink: 'https://astro-yi-nu.vercel.app/rss.xml',
+  // }
 ]
 
 /**

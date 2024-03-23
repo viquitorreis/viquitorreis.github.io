@@ -77,7 +77,7 @@ export const site = {
   favicon: '/favicon.svg',
   description: 'Welcome to my independent blog website! ',
   author: "xxxxx",
-  avatar: '/avatar.png',
+  avatar: 'avatar_favicon/avatar.png',
   motto: 'Keep moving.',
   url: 'https://astro-yi-nu.vercel.app',
   recentBlogSize: 5,
@@ -124,7 +124,7 @@ export const categories = [
     href: "/message/",
   },
   {
-    name: "Search",
+    name: "Pesquisar",
     iconClass: "ri-search-line",
     href: "/search",
   },

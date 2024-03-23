@@ -1,0 +1,7 @@
+- template astro-yi
+
+    tá usando o pnpm
+
+- repo template
+
+    https://github.com/cirry/astro-yi?tab=readme-ov-file

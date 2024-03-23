@@ -76,7 +76,7 @@ export const site = {
     favicon: '/favicon.svg',
     description: 'Welcome to my independent blog website! ',
     author: "Cirry",
-    avatar: '/avatar.png',
+    avatar: '/avatar_favicon/avatar.png',
     motto: '最重要的事情只有一件',
     url: 'https://astro-yi-nu.vercel.app',
     recentBlogSize: 5,
